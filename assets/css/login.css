@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+    background-color: #D6C6A6 !important;
+    font-family: 'Noto Serif', serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+}
+.form-signin input[type="senha"] {
+    margin-bottom: 10px;
+}
+
+#img-2{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 120px;
+    z-index: 1;
+}
+
+legend{
+    margin-top: 15px;
+    font-size: 25px!important;
+    margin-left: -130px !important;
+}
